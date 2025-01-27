@@ -22,7 +22,7 @@ else app.use(morgan('combined'));
   
 
 app.get('/ping', (req, res) => {
-    res.json({ status: 'ok', message: 'Users Service OK' });
+    res.json({ status: 'ok', message: 'Users Service OK.' });
 });
 
 app.use('/api/users', userRoutes);
